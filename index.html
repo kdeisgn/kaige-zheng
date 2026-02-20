@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaige Zheng</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      background: #fafafa;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      letter-spacing: 0.01em;
+    }
+
+    main {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      font-weight: 400;
+      font-size: 1.25rem;
+      margin-bottom: 3rem;
+    }
+
+    section { margin-bottom: 3rem; }
+
+    .label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #999;
+      margin-bottom: 1rem;
+    }
+
+    .project {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 1rem 0;
+      border-top: 1px solid #e8e8e8;
+      transition: opacity 0.2s;
+    }
+
+    .project:last-child { border-bottom: 1px solid #e8e8e8; }
+    .project:hover { opacity: 0.6; }
+
+    .project-name {
+      font-weight: 400;
+      font-size: 0.95rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .project-desc {
+      font-size: 0.8rem;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    .links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .links a {
+      font-size: 0.8rem;
+      color: #999;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .links a:hover { color: #1a1a1a; }
+
+    .sep {
+      width: 24px;
+      height: 1px;
+      background: #ccc;
+      margin-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kaige Zheng</h1>
+
+    <section>
+      <div class="label">Projects</div>
+      <a class="project" href="https://timeflow-ck5.pages.dev" target="_blank" rel="noopener">
+        <div class="project-name">TimeFlow</div>
+        <div class="project-desc">AI-powered time management with task estimation, calendar scheduling, and energy-aware planning.</div>
+      </a>
+    </section>
+
+    <div class="sep"></div>
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/kaige-zheng/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://kaigezheng.webflow.io" target="_blank" rel="noopener">Portfolio</a>
+    </div>
+  </main>
+</body>
+</html>
